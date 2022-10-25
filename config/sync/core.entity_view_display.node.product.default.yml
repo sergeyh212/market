@@ -1,0 +1,38 @@
+uuid: 76e909df-e1ff-4e5f-a057-c00df4e2fb45
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.product.body
+    - field.field.node.product.field_kategoriya
+    - node.type.product
+  module:
+    - text
+    - user
+id: node.product.default
+targetEntityType: node
+bundle: product
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_kategoriya:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

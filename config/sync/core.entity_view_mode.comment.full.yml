@@ -1,0 +1,12 @@
+uuid: b1bab60b-3627-47a6-834b-ccd65ecd8646
+langcode: ru
+status: false
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
+id: comment.full
+label: 'Комментарий полностью'
+targetEntityType: comment
+cache: true
